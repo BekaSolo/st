@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" class="flex items-center justify-center h-[100%] m-0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./dist/output.css" />
+  </head>
+  <body
+    class="bg-[#C5E0F5] font-poppins flex items-center justify-center h-[100%] m-0"
+  >
+    <a href="dashboard.html" class="hidden"></a>
+    <a href="dashboard2.html" class="hidden"></a>
+    <div class="py-12 sm:px-6 lg:px-8">
+      <div class="mt-10 sm:mx-auto">
+        <div class="bg-white shadow rounded-lg">
+          <div class="flex">
+            <div class="rounded-lg h-full relative">
+              <img src="./img/refer.png" alt="" class="rounded-l-lg" />
+
+              <div class="absolute top-20 left-1/4">
+                <img src="./img/Logo Frame.png" />
+                <h1 class="text-3xl text-center text-white">SomeName</h1>
+              </div>
+            </div>
+
+            <div class="py-[53px] px-[64px] bg-[#f8f8fb] rounded-r-lg">
+              <h1 class="text-[#1A65B0] font-semibold text-2xl text-center">
+                Welcome
+              </h1>
+              <p
+                class="text-[#979797] text-sm text-center pt-1 pb-7 font-poppins"
+              >
+                Please log in with the Student ID and <br />
+                password
+              </p>
+              <form class="" action="#" method="POST">
+                <div class="mb-3">
+                  <div class="">
+                    <input
+                      id="room"
+                      name="room"
+                      type="room"
+                      autocomplete="room"
+                      placeholder="Room code"
+                      required
+                      class="px-4 block w-full rounded-xl border-0 py-2 text-[#333333B3] shadow-sm placeholder:text-[#333333B3] text-base"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <div class="mb-3">
+                    <input
+                      style="
+                        background-image: url('./img/Student.png');
+                        background-position: 10px 4px;
+                      "
+                      id="studentID"
+                      name="studentID"
+                      type="studentID"
+                      autocomplete="studentID"
+                      placeholder="Student ID"
+                      required
+                      class="bg-no-repeat bg-left-top px-10 py-2 block w-full rounded-xl border-0 text-[#333333B3] shadow-sm placeholder:text-[#333333B3] text-base"
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <div>
+                    <input
+                      style="
+                        background-image: url('./img/Lock.png');
+                        background-position: 10px 4px;
+                      "
+                      id="password"
+                      name="password"
+                      type="password"
+                      autocomplete="password"
+                      placeholder="Password"
+                      required
+                      class="bg-no-repeat bg-left-top px-10 block w-full rounded-xl border-0 py-2 text-[#333333B3] shadow-sm placeholder:text-[#333333B3] text-base"
+                    />
+                  </div>
+                </div>
+
+                <div class="mt-8">
+                  <button
+                    type="submit"
+                    style="
+                      opacity: 0.9;
+                      background: linear-gradient(
+                        90deg,
+                        #1b75bc 0%,
+                        #0054a6 100%
+                      );
+                      box-shadow: 0px 4px 20px rgba(0, 86.36, 134.94, 0.13);
+                    "
+                    class="flex w-full justify-center rounded-full px-3 py-3 text-sm font-semibold leading-6 text-white shadow-sm"
+                  >
+                    Login
+                  </button>
+                </div>
+
+                <div class="mt-3">
+                  <button
+                    style="
+                      box-shadow: 0px 4px 20px rgba(0, 86.36, 134.94, 0.13);
+                    "
+                    type="submit"
+                    class="flex w-full justify-center rounded-full px-3 py-3 text-sm font-semibold leading-6 text-[#0054A6] shadow-sm bg-white"
+                  >
+                    Register
+                  </button>
+                </div>
+
+                <div class="text-sm mt-9 text-center">
+                  <a href="#" class="font-semibold text-[#0054A6] text-center"
+                    >Forgot Password?</a
+                  >
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
