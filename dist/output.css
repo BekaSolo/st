@@ -722,6 +722,10 @@ video {
   margin-right: 0.25rem;
 }
 
+.mr-2{
+  margin-right: 0.5rem;
+}
+
 .mr-\[14px\]{
   margin-right: 14px;
 }
@@ -871,6 +875,10 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.max-h-\[573px\]{
+  max-height: 573px;
 }
 
 .w-full{
@@ -2193,6 +2201,10 @@ video {
 
 .align-super{
   vertical-align: super;
+}
+
+.font-primary{
+  font-family: Poppins;
 }
 
 .text-2xl{
