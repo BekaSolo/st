@@ -873,8 +873,8 @@ video {
   height: 55vh;
 }
 
-.h-\[70vh\]{
-  height: 70vh;
+.h-\[68vh\]{
+  height: 68vh;
 }
 
 .h-full{
@@ -2854,6 +2854,12 @@ video {
     .dark\:lg\:hover\:\[paint-order\:markers\]:hover{
       paint-order: markers;
     }
+  }
+}
+
+@media (min-width: 1089px){
+  .min-\[1089px\]\:h-\[70vh\]{
+    height: 70vh;
   }
 }
 
