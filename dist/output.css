@@ -869,32 +869,12 @@ video {
   height: 50vh;
 }
 
-.h-\[74vh\]{
-  height: 74vh;
-}
-
-.h-full{
-  height: 100%;
-}
-
-.h-\[70vh\]{
-  height: 70vh;
-}
-
-.h-\[68vh\]{
-  height: 68vh;
-}
-
 .h-\[67vh\]{
   height: 67vh;
 }
 
-.max-h-\[573px\]{
-  max-height: 573px;
-}
-
-.max-h-\[373px\]{
-  max-height: 373px;
+.h-full{
+  height: 100%;
 }
 
 .max-h-\[55vh\]{
