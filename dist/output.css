@@ -2824,10 +2824,6 @@ video {
   .max-\[722px\]\:mt-\[50px\]{
     margin-top: 50px;
   }
-
-  .max-\[722px\]\:overflow-hidden{
-    overflow: hidden;
-  }
 }
 
 @media (min-width: 640px){
