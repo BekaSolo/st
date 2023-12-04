@@ -643,8 +643,16 @@ video {
   left: 25%;
 }
 
+.right-3 {
+  right: 0.75rem;
+}
+
 .top-20 {
   top: 5rem;
+}
+
+.top-3 {
+  top: 0.75rem;
 }
 
 .isolate {
@@ -853,6 +861,10 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
 }
 
 .w-full {
@@ -2070,6 +2082,11 @@ video {
 .py-\[83px\] {
   padding-top: 83px;
   padding-bottom: 83px;
+}
+
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .pb-1 {
