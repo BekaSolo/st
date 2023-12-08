@@ -2268,6 +2268,10 @@ video {
   line-height: 1.25rem;
 }
 
+.text-\[18px\]{
+  font-size: 18px;
+}
+
 .font-bold{
   font-weight: 700;
 }
