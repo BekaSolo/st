@@ -897,8 +897,8 @@ video {
   height: 55vh;
 }
 
-.h-\[66vh\]{
-  height: 66vh;
+.h-\[64vh\]{
+  height: 64vh;
 }
 
 .h-\[70vh\]{
@@ -2842,8 +2842,8 @@ video {
 }
 
 @media (max-width: 1089px){
-  .max-\[1089px\]\:h-\[66vh\]{
-    height: 66vh;
+  .max-\[1089px\]\:h-\[64vh\]{
+    height: 64vh;
   }
 
   .max-\[1089px\]\:h-\[68vh\]{
