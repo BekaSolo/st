@@ -2842,8 +2842,8 @@ video {
 }
 
 @media (max-width: 1089px){
-  .max-\[1089px\]\:h-\[64vh\]{
-    height: 64vh;
+  .max-\[1089px\]\:h-\[65vh\]{
+    height: 65vh;
   }
 
   .max-\[1089px\]\:h-\[68vh\]{
